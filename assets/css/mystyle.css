@@ -457,6 +457,7 @@ input {
 
 .contact-sec {
   align-item: center;
+  margin: 25px;
   display: flex;
   border-radius: 20px;
   border-style: solid;
