@@ -238,7 +238,7 @@ img{
 }
 
 .carousel__contents {
-  /* display: flex; */
+  display: grid;
   flex-direction: column-reverse;
   justify-content: start;
   min-height: 200px;
@@ -282,6 +282,7 @@ img{
 .carousel__contents .user__title,
 .carousel__contents .user__name {
   margin-top: 420px;
+  text-align: right;
   line-height: 1.1;
   opacity: 0;
   transform: translateX(-200px);
