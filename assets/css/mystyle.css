@@ -928,7 +928,7 @@ li span {
 /* responsive CSS  */
 
  /* Extra small devices (phones, 600px and down) */
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 500px) {
   body{
     zoom:0.5;
     /* -moz-transform: scale(0.5);
@@ -943,7 +943,7 @@ li span {
   }
 
   video {
-    width: 60%;
+    width: 50%;
   }
   .hero-text1{
     margin-top: 100px;
@@ -962,13 +962,16 @@ li span {
  }
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
- @media only screen and (min-width: 600px) {
+ @media only screen and (min-width: 500px) {
 
   body{
     zoom:0.5;
   }
   video {
-    width: 80%;
+    width: 30%;
+  }
+  .hero-text3{
+    margin-top: 1000px;
   }
   .img-fluid{
     /* align-items: left; */
