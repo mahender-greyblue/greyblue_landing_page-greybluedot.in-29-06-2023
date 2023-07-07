@@ -11,11 +11,19 @@ i {
 	margin-right: 10px;
 } */
 /*----------bootstrap-navbar-css------------*/
+.navbar{ 
+	position:relative;
+
+}
 .navbar-logo{
-	padding: 15px;
+	/* padding: 15px; */
 	/* color: #fff; */
 	color: black;
-    height: 50%;
+    /* height: 50%; */
+}
+.navbar-logo  img{
+	margin-left: 30px;
+	height: 30px;
 }
 .navbar-mainbg{
 	/* background-color: #5161ce; */
@@ -23,9 +31,14 @@ i {
 	padding: 0px;
 	padding: 0px;
 }
+.navbar-toggler {
+   
+    background-color: #1b2e4b;
+   
+}
 #navbarSupportedContent{
 	overflow: hidden;
-	position: relative;
+	/* position: relative; */
 }
 #navbarSupportedContent ul{
 	padding: 0px;
@@ -118,6 +131,10 @@ i {
 
 
 @media(min-width: 992px){
+	.navbar-logo  img{
+		margin-left: 200px;
+		height: 50px;
+	}
 	.navbar-expand-custom {
 	    -ms-flex-flow: row nowrap;
 	    flex-flow: row nowrap;
@@ -129,6 +146,7 @@ i {
 	    flex-direction: row;
 	}
 	.navbar-expand-custom .navbar-toggler {
+		
 	    display: none;
 	}
 	.navbar-expand-custom .navbar-collapse {
@@ -137,12 +155,31 @@ i {
 	    -ms-flex-preferred-size: auto;
 	    flex-basis: auto;
 	}
+	#navbarSupportedContent{
+		overflow: hidden;
+		margin-right: 130px;
+		/* position: relative; */
+	}
 }
 
 
 @media (max-width: 991px){
 	#navbarSupportedContent ul li a{
-		padding: 12px 30px;
+		padding: 5px 330px;
+		/* color: white; */
+	}
+	.navbar-mainbg{
+		/* background-color: #5161ce; */
+		/* background-color: transparent; */
+		background-color: white;
+		
+		/* opacity: .8; */
+		align-items: center;
+		padding: 0px;
+		padding: 0px;
+	}
+	.navbar-mainbg a{
+		color: white;
 	}
 	.hori-selector{
 		margin-top: 0px;

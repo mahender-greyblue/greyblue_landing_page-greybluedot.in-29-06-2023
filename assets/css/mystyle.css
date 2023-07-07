@@ -1,5 +1,6 @@
 body, html {
-  
+
+  color: white;
   padding: 0;
   display: grid;
   place-items: stretch;
@@ -8,7 +9,7 @@ body, html {
   
 }
 img{
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .hero-text1{
@@ -16,6 +17,9 @@ img{
 }
 
 .hero-text2{
+  color: white;
+}
+.hero-text3{
   color: white;
 }
 .hero-img1{
@@ -445,6 +449,7 @@ input {
 
 .section-title {
     /* position: relative; */
+    color: white;
   font-size: 30px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -976,7 +981,7 @@ max-width: none;
   .hero-text1{
     font-size: 35px;
     color: white;
-    margin-top: 80px;
+    /* margin-top: 80px; */
   }
   .hero-text2{
     color: white;
